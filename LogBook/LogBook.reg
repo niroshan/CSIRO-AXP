@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\LogBook.Application = LogBook Application
+HKEY_CLASSES_ROOT\LogBook.Application\CLSID = {675A5B52-C78A-11D2-9DAF-0000E852C97A}
+
+HKEY_CLASSES_ROOT\CLSID\{675A5B52-C78A-11D2-9DAF-0000E852C97A} = LogBook Application
+HKEY_CLASSES_ROOT\CLSID\{675A5B52-C78A-11D2-9DAF-0000E852C97A}\ProgId = LogBook.Application
+HKEY_CLASSES_ROOT\CLSID\{675A5B52-C78A-11D2-9DAF-0000E852C97A}\LocalServer32 = LOGBOOK.EXE
